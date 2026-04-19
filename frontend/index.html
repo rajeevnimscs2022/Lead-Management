@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Lead Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Lead Form</h2>
+
+<form id="leadForm">
+    <input type="text" id="name" placeholder="Full Name" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="phone" placeholder="Phone Number" required>
+
+    <select id="source" required>
+        <option value="">Select Source</option>
+        <option>Website</option>
+        <option>Facebook</option>
+        <option>Google</option>
+        <option>Referral</option>
+    </select>
+
+    <button type="submit">Submit</button>
+</form>
+
+<h2>Leads</h2>
+
+<table id="leadTable">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Source</th>
+            <th>Date & Time</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
