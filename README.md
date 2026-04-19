@@ -76,7 +76,7 @@ Lead-Management-System/
 
 How to Run the Project
  1. Clone the Repository
-git clone https://github.com/rajeevnimscs2022//lead-management-system.git
+git clone https://github.com/rajeevnimscs2022/Lead-Management
 cd lead-management-system
  2. Run Backend
 cd backend
